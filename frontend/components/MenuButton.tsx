@@ -35,8 +35,23 @@ export default function MenuButton({ selectedYear, onYearChange, onSettingsClick
     if (navigator.share) {
       try {
         await navigator.share({ title: 'Christmas Countdown', text, url });
-      } catch (err) {
+        toast({
+          title: 'Shared!',
+          description: 'Christmas countdown shared successfully',
+        });
+      } catch (err: any) {
         console.error('Error sharing:', err);
+        if (err.name !== 'AbortError') {
+          try {
+            await navigator.clipboard.writeText(url);
+            toast({
+              title: 'Link copied!',
+              description: 'Share link copied to clipboard instead',
+            });
+          } catch (clipErr) {
+            console.error('Error copying to clipboard:', clipErr);
+          }
+        }
       }
     } else {
       try {

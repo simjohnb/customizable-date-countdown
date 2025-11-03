@@ -26,14 +26,19 @@ export default function MusicPlayer({ volume, autoPlay }: MusicPlayerProps) {
     }
   }, [autoPlay, isPlaying]);
 
-  const togglePlay = () => {
+  const togglePlay = async () => {
     if (audioRef.current) {
       if (isPlaying) {
         audioRef.current.pause();
+        setIsPlaying(false);
       } else {
-        audioRef.current.play();
+        try {
+          await audioRef.current.play();
+          setIsPlaying(true);
+        } catch (err) {
+          console.error('Error playing audio:', err);
+        }
       }
-      setIsPlaying(!isPlaying);
     }
   };
 
