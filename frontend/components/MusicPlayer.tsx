@@ -73,7 +73,7 @@ export default function MusicPlayer({ volume, autoPlay }: MusicPlayerProps) {
         onPlay={() => setIsPlaying(true)}
         onPause={() => setIsPlaying(false)}
       >
-        <source src="/christmas-music.mp3" type="audio/mpeg" />
+        <source src="/https://audio.jukehost.co.uk/EFbNNxlkePntsbK7Fc3yeWhHQ43YeWS2" type="audio/mpeg" />
       </audio>
     </div>
   );
