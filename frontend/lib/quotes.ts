@@ -104,8 +104,8 @@ export const quotes = [
   "Christmas is the celebration of life, love, and giving.",
   "Christmas is a time for kindness, compassion, and joy.",
   "Christmas is a season of generosity and gratitude.",
-  "Christmas is a memory, a feeling, and a gift that never fades."
- "Christmas is a gentle reminder that kindness never goes out of style.",
+  "Christmas is a memory, a feeling, and a gift that never fades.",
+  "Christmas is a gentle reminder that kindness never goes out of style.",
   "Christmas is the cozy glow that warms even the coldest hearts.",
   "Christmas is a time to sprinkle joy like snowflakes everywhere you go.",
   "Christmas is the pause that refreshes the soul with gratitude and love.",
@@ -325,7 +325,7 @@ export const quotes = [
   "Christmas is love echoing through time, stronger every year.",
   "Christmas is joy that whispers softly but touches deeply.",
   "Christmas is the shining proof that love will always return.",
-  "Christmas is light that never fades, even in the longest night."
+  "Christmas is light that never fades, even in the longest night.",
     "Christmas is the gentle hum of joy beneath winter’s silence.",
   "Christmas is a season when hearts glow brighter than lights.",
   "Christmas is love wearing a cozy sweater of warmth and cheer.",
@@ -556,8 +556,8 @@ export const quotes = [
   "Christmas is hope thawing the frost around our hearts.",
   "Christmas is laughter that reminds us life glows best together.",
   "Christmas is joy growing like ivy through the walls of time.",
-  "Christmas is love multiplied by every grateful heart."
-   "Christmas is joy tiptoeing through the quiet moments.",
+  "Christmas is love multiplied by every grateful heart.",
+  "Christmas is joy tiptoeing through the quiet moments.",
   "Christmas is the light of peace flickering in every heart.",
   "Christmas is the gentle reminder that love always wins.",
   "Christmas is kindness sparkling brighter than any ornament.",
@@ -758,8 +758,8 @@ export const quotes = [
   "Christmas is kindness rising like dawn in the human spirit.",
   "Christmas is joy ringing true in every merry heart.",
   "Christmas is tenderness finding its home across the world.",
-  "Christmas is peace rediscovered through shared smiles."
-   "Christmas is the warmth that fills the heart when family gathers near.",
+  "Christmas is peace rediscovered through shared smiles.",
+  "Christmas is the warmth that fills the heart when family gathers near.",
   "The joy of Christmas is measured in smiles shared and memories made.",
   "Christmas is a light that brightens even the darkest winter night.",
   "Every Christmas tree sparkles with the hope of new beginnings.",
@@ -890,7 +890,7 @@ export const quotes = [
   "The magic of Christmas is the joy and wonder it brings to all.",
   "Christmas is a time to make memories, share love, and embrace happiness.",
   "Every Christmas light shines with the spirit of hope and love.",
-  "Christmas is a season to rejoice, reflect, and celebrate the heart."
+  "Christmas is a season to rejoice, reflect, and celebrate the heart.",
   "Christmas is the sparkle in the eyes of those we hold dear.",
   "The joy of Christmas is in the laughter that fills the room.",
   "Every Christmas light carries a story of hope and love.",
